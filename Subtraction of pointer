@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+  int number=50;
+  int *p;
+  p=&number;
+  printf("address of p variable:%u\n", p);
+  p=p+3;
+  printf("after addition:value of p variable:%u\n",p);
+  getch();
+  clrscr();
+  }
+ 
+output:
+address of p variable:1945952708
+after addition:value of p variable:1945952720
+
+Process finished.
