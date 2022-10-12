@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+  int*p;
+  int var=10;
+  p=&var;
+  printf("\nthe value of variable var:%d",var);
+  printf("\nthe value of variable *p:%d",*p);
+  printf("\nthe value of variable *&var:%d",*&var);
+  printf("\nthe address of variable &var:%u",&var);
+  printf("\nthe address of variable p:%u",p);
+  printf("\nthe address of pointer p:%u",&p);
+  getch();
+  clrscr();
+  }
+ 
+
+output:
+the value of variable var:10
+the value of variable *p:10
+the value of variable *&var:10
+the address of variable &var:3488368476
+the address of variable p:3488368476
+the address of pointer p:3488368480
+Process finished.
