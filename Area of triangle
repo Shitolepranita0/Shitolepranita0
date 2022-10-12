@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+void Area()
+{
+ int base;
+ int height;
+ float Area;
+ printf("enter the base");
+ scanf("%d",&base);
+ printf("enter the height");
+ scanf("%d",&height);
+ Area=base*height/2;
+ printf("area of triangle :%0.2f", Area);
+ }
+void main()
+{
+  clrscr();
+  Area();
+  getch();
+}
+
+
+enter the base3
+enter the height4
+area of triangle :6.00
+Process finished.
