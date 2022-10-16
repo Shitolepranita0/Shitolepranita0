@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int no1=0, i=0;
+  printf("\n\t enter a number to print a table=> ");
+  scanf("%d", &no1);
+  for(i=1;i<10;i++)
+  {
+    printf("\n%d", i *no1);
+   }
+   getch();
+   clrscr();
+   return 0;
+
+   }
