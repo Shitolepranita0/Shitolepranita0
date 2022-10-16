@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  float amount=0.0;
+  printf("\n enter your account balance=");
+  scanf("%f", &amount);
+  if(amount>10000)
+    {
+      printf("\n\t welcome to mall!!!");
+      printf("\n\t enjoy your shopping!!!");
+    }
+     printf("\n\n Thanks for visit!!!");
+     getch();
+     clrscr();
+}
