@@ -1,0 +1,35 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+int student
+{
+  private:
+  int rn;
+  char[40];
+  public:
+  void getdata()
+  {
+    cout<<"enter roll no of student:"<<endl;
+    cin>>rn;
+    count<<"enter name:"<<endl;
+    cin>>n;
+  };
+  void showdata();
+}
+void student:showdata()
+ {
+   cout<<"roll no:"<<rn<<endl;
+   cout<<"name:"<<n<<endl;
+ }
+ void main()
+ {
+   clrscr();
+   student s;
+   s. getdata();
+   cout<<":STUDENT DETAILS:"<<endl;
+   s.showdats();
+   getch();
+ }
+   
+
+
