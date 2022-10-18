@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  float amount=0.0;
+  printf("enter your account balance=");
+  scanf("%f", amount);
+  if(amount>10000)
+  {
+    printf("welcome to mall");
+  }
+  else if(amount>5000)
+   {
+     printf("\n\t enter in second floar");
+   }
+   else if(amount>3000)
+   {
+     printf(shopping in ground floar");
+   }
+   else
+   {
+     printf("\n\n\t minimum balance required to shop is 1000\n");
+   }
+getch();
+printf("\n\t Thanks for visit!!!");
+getch();
+}
