@@ -1,0 +1,18 @@
+#include<iostream>
+#include<conio.h>
+Void address(int*);
+int main()
+{
+  int no=10;
+  cout<<no<<endl;
+  address(&no);
+  cout<<no<<endl;
+  getch();
+  return 0;
+}
+  void address(int*ptr)
+  {
+    cout<<"inside function..."<<endl;
+    (*ptr)++;
+  }
+
