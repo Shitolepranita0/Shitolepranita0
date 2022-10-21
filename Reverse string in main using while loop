@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  char csrc[20]={'\0'};
+  char cdest[20]={};
+  int i=0,j=0;
+  printf("\n enter a string:");
+  gets(csrc);
+  while(csrc[i]!='\0')
+  {
+    i++;
+  }
+  i--;
+  while(i>=0)
+  {
+    cdest[i]=csrc[i];
+    j++;
+    i--;
+  }
+  cdest[j]='\0';
+  printf("\n given string is=%s!!!", csrc);
+  printf("\n reverse of given string is=%s!!!", cdest);
+  getch();
+  return 0;
+}
