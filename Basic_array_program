@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int num[6]={12,23,54,67,23,65};
+  printf("\n the value of 1st number=%d", num[0]);
+  printf("\n the value of 2nd number=%d", num[1]);
+  printf("\n the value of 3rd number=%d", num[2]);
+  printf("\n the value of 4th number=%d", num[3]);
+  printf("\n the value of 5th number=%d", num[4]);
+  printf("\n the value of 6rd number=%d", num[5]);
+ 
+  printf("\n\n Thanks!!!\n");
+  getch();
+  return 0;
+}
