@@ -1,0 +1,17 @@
+#include<iostream>
+#include<conio.h>
+void refrence(int&);
+int main()
+{
+  int no=10;
+  cout<<no<<endl;
+  refrence(no);
+  cout<<no<<endl;
+  getch();
+  return 0;
+ }
+  void refrence(int &ref)
+  {
+    cout<<"inside function..."<<endl;
+    ref++;
+  }
