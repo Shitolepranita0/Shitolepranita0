@@ -1,0 +1,13 @@
+<?php
+$firstname=$_post["fname"];
+$middlename=$_post["mnname"];
+$lastname=$_post["lname"];
+$mobilenumber=$_post["mobile"];
+$emailid=$_post["email"];
+
+echo $firstname;
+echo $middlename;
+echo $lastname;
+echo $mobilenumber;
+echo $email;
+?>
