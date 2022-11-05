@@ -1,0 +1,32 @@
+#include <iostream.h>
+#include<stdio.h>
+#include <conio.h>
+void rect();
+void rect(int x);
+void rect(int x, int y);
+void rect()
+{
+  int l=5,b=10, a;
+  a=l*b;
+  cout<<"area of rectangle:"<<a<<endl;
+}
+void rect(int x)
+{
+  int l=x, b=5, a;
+  a=l*b;
+  cout<<"area of rectangle:"<<endl;
+}
+void rect(int x, int y)
+{
+  int l=x, b=y,a;
+  a=l*b;
+  cout<<"area of rectangle:"<<a<<endl;
+}
+void main()
+{
+  clrscr();
+  rect();
+  rect(4);
+  rect(5,6);
+  getch();
+};
