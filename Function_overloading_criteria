@@ -1,0 +1,33 @@
+#include<iostream>
+#include<conio.h>
+class overloading_criteria
+{
+  public:
+    void check(int No)
+    {
+      cout<<"\n value at normal function check()="<<No;
+    }
+    void check(int*ptr)
+    {
+      cout<<"\n value at pointer function check()"<<*ptr;
+    }
+};
+int main()
+{
+  overload_criteria obj;
+  int ld=21;
+  int &ld_ref=ld;
+  obj. check(101);
+  obj. check(ld);
+  obj. check(&ld);
+  getch();
+  return 0;
+ }
+}
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  printf("Hello, World!");
+  return 0;
+}
