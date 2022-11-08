@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+struct product
+{
+  int p_id;
+  char name[60];
+  float p_price;
+  float s_price;
+ };
+ int main()
+ {
+   struct product obj={17,"book",97.50,200};
+   struct product obj={0,"\0",0.0,0.0};
+   printf("enter the product object");
+   printf("\n 1st product id=%d", obj1.p_id);
+   printf("\n 1st product nm=%s", obj1.name);
+   printf("\n 1st product p_price=%f",obj3.p_price);
+   printf("\n 1st product s_price=%f",obj4.s_price);
+   getch();
+   return 0;
+  }
