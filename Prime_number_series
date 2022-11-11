@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int istart=0,iend=0,i=0;
+  printf("\n\t enter starting number=");
+  scanf("%d", &istart);
+  printf("\n\t enter ending number=");
+  scanf("%d", &iend);
+  while(istart<=iend)
+  {
+    for(i=2;i<istart;i++)
+    {
+      if(istart%i==0)
+      {
+        break;
+      }
+      else
+      {
+        continue;
+      }
+   }
+   if(i==istart)
+   {
+     printf("\n\t%d", istart);
+   }
+   istart++;
+}
+printf("\n\t\t Thanks!!!\n");
+  getch();
+  return 0;
+}
