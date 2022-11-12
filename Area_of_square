@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int a, area;
+  printf("\n enter the value of a\n");
+  scanf("%d",&a);
+  area=a*a*a*a;
+  printf("area of square=%d",area);
+  return 0;
+}
